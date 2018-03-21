@@ -1,0 +1,200 @@
+/*
+Template:   This file is specific for WordPress projects with ITM-Theme
+Info:       This file will contain Child theme !admin! authentication style
+Web:		http://www.itmaniax.com
+*/
+/******************************************************************************/
+/*********	LOGIN	***********************************************************/
+/******************************************************************************/
+html body {
+    background-image: url('../../../../itm-media/img/admin/login/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a:focus {
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* INPUT - START */
+.login input[type=text],
+.login input[type=password] {
+	position: relative;
+	font-size: 18px;
+	font-weight: 600;
+	border: none;
+	background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #509cfd;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.login input[type=text]::-webkit-input-placeholder,
+.login input[type=password]::-webkit-input-placeholder {
+	font-weight: 100;
+	color: rgba(52,52,52,.7);
+}
+
+.login input[type=text]:-moz-placeholder,
+.login input[type=password]:-moz-placeholder { /* Firefox 18- */
+	font-weight: 100;
+	color: rgba(52,52,52,.7);
+}
+
+.login input[type=text]::-moz-placeholder,
+.login input[type=password]::-moz-placeholder {  /* Firefox 19+ */
+	font-weight: 100;
+	color: rgba(52,52,52,.7); 
+}
+
+.login input[type=text]:-ms-input-placeholder,
+.login input[type=password]:-ms-input-placeholder {
+	font-weight: 100;
+	color: rgba(52,52,52,.7);
+}
+
+.login input[type=text] {
+	margin-bottom: 10px;
+}
+#wp-submit {
+	margin-top: 30px;
+}	
+/* INPUT - STOP */
+.login h1 a {
+    background-image: url('../../../../itm-media/img/itm-logo-gradient-blue.png');
+    width: 100%;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#login form #powered {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+    margin-bottom: 15px;	
+}
+.login form {
+    padding: 65px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,0.9);
+}
+#login {
+	width: 470px;
+	padding: 0;
+	margin-top: 0;
+}
+.submit {
+	display: table;
+	width: 100%;
+}
+#wp-submit {
+	width: 100%;
+    height: 48px;
+    line-height: normal;
+    padding: 0;
+    background: transparent;
+    text-shadow: none;
+    color: #509cfd;    
+    border-radius: 0;
+    border: 2px solid;
+    border-color: #509cfd;
+	font-size: 18px;
+    text-transform: uppercase;    
+}
+#wp-submit:hover {
+	background-color: #509cfd;
+	color: #FFF;
+}
+.wp-core-ui .button-primary.focus, 
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-primary.active, 
+.wp-core-ui .button-primary.active:focus, 
+.wp-core-ui .button-primary.active:hover, 
+.wp-core-ui .button-primary:active {
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+.wp-core-ui .button-secondary:active, 
+.wp-core-ui .button.active, 
+.wp-core-ui .button.active:hover, 
+.wp-core-ui .button:active {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+#login #nav {
+	float: right;
+    padding: 0;
+}
+.login #backtoblog {
+	display: table;
+	width: 100%;
+    margin-top: 60px;
+	padding: 0;	
+	text-align: center;
+}
+/* Bullet - START */
+label[for=user_login],
+label[for=user_pass] {
+	position: relative;
+}
+.bullet {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: #509cfd;
+	border-radius: 50%;
+    bottom: -17px;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+	left: 0;
+}
+label[for=user_login] input:focus + .bullet,
+label[for=user_pass] input:focus + .bullet {
+	margin-left: -10px;
+	left: 100%;
+}
+/* Bullet - STOP */
+/* Messages - START */
+.login #login_error, 
+.login .message	{
+	color: #444;
+	margin-bottom: 10px;
+    border-left: 5px solid;
+}
+.login #login_error {
+	border-color: #dc3232;
+    background-color: rgba(255, 255, 255,.9);
+}
+.login .message	{
+	border-color: #509cfd;
+	background-color: rgba(255, 255, 255,.9);
+}
+/* Messages - STOP */
+/* Footer actions - START */
+.login form .forgetmenot,
+.login #nav {
+	margin-top: 10px;
+}
+.login form .forgetmenot label, 
+.login #nav a,
+.login #backtoblog a {
+	color: #343434;
+	font-size: 14px;
+}
+.login #backtoblog a:hover, 
+.login #nav a:hover, 
+.login h1 a:hover {
+	color: #509cfd;
+}
+/* Footer actions - STOP */
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
