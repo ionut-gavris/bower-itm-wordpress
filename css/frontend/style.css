@@ -1,0 +1,55 @@
+/******************************************************************************/
+/*********************** ITM Wordpress Pagination - START *********************/
+/******************************************************************************/
+.itm-wordpress-pagination
+{
+	text-align: center;
+}
+.itm-wordpress-pagination ul
+{
+    list-style-type: none;    
+	display: inline-block;
+    white-space: nowrap;
+    padding: 0 !important;
+    border: 1px solid #d3ced2;
+    border-right: 0;
+    margin: 1px;
+}
+.itm-wordpress-pagination ul li
+{
+	display: inline-block;
+	border-right: 1px solid #d3ced2;
+    padding: 0;
+    margin: 0;
+    float: left;
+    overflow: hidden;	
+}
+.itm-wordpress-pagination ul li a,
+.itm-wordpress-pagination ul li span
+{
+    margin: 0;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 1em;
+    font-weight: 400;
+    padding: .5em;
+    min-width: 1em;
+    display: block;	
+}
+.itm-wordpress-pagination ul li span.current
+{
+    background-color: #ebe9eb;
+    color: #8a7e88;	
+}
+.itm-wordpress-pagination ul li a:hover
+{
+    background-color: #ebe9eb;
+    color: #8a7e88;		
+}
+.itm-wordpress-pagination ul li span.current:hover
+{
+    cursor: default;
+}
+/******************************************************************************/
+/*********************** ITM Wordpress Pagination - END	  *********************/
+/******************************************************************************/
