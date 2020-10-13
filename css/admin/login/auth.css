@@ -47,7 +47,7 @@ a:focus {
 .login input[type=text]::-moz-placeholder,
 .login input[type=password]::-moz-placeholder {  /* Firefox 19+ */
 	font-weight: 100;
-	color: rgba(52,52,52,.7); 
+	color: rgba(52,52,52,.7);
 }
 
 .login input[type=text]:-ms-input-placeholder,
@@ -56,12 +56,9 @@ a:focus {
 	color: rgba(52,52,52,.7);
 }
 
-.login input[type=text] {
-	margin-bottom: 10px;
-}
 #wp-submit {
 	margin-top: 30px;
-}	
+}
 /* INPUT - STOP */
 .login h1 a {
     background-image: url('../../../../itm-media/img/itm-logo-gradient-blue.png');
@@ -74,7 +71,7 @@ a:focus {
 	width: 100%;
 	text-align: center;
 	font-size: 18px;
-    margin-bottom: 15px;	
+    margin-bottom: 15px;
 }
 .login form {
     padding: 65px;
@@ -97,30 +94,30 @@ a:focus {
     padding: 0;
     background: transparent;
     text-shadow: none;
-    color: #509cfd;    
+    color: #509cfd;
     border-radius: 0;
     border: 2px solid;
     border-color: #509cfd;
 	font-size: 18px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 #wp-submit:hover {
 	background-color: #509cfd;
 	color: #FFF;
 }
-.wp-core-ui .button-primary.focus, 
+.wp-core-ui .button-primary.focus,
 .wp-core-ui .button-primary:focus,
 .wp-core-ui .button-primary,
-.wp-core-ui .button-primary.active, 
-.wp-core-ui .button-primary.active:focus, 
-.wp-core-ui .button-primary.active:hover, 
+.wp-core-ui .button-primary.active,
+.wp-core-ui .button-primary.active:focus,
+.wp-core-ui .button-primary.active:hover,
 .wp-core-ui .button-primary:active {
 	-webkit-box-shadow: none;
     box-shadow: none;
 }
-.wp-core-ui .button-secondary:active, 
-.wp-core-ui .button.active, 
-.wp-core-ui .button.active:hover, 
+.wp-core-ui .button-secondary:active,
+.wp-core-ui .button.active,
+.wp-core-ui .button.active:hover,
 .wp-core-ui .button:active {
     -webkit-transform: none;
     -ms-transform: none;
@@ -134,7 +131,7 @@ a:focus {
 	display: table;
 	width: 100%;
     margin-top: 60px;
-	padding: 0;	
+	padding: 0;
 	text-align: center;
 }
 /* Bullet - START */
@@ -148,7 +145,7 @@ label[for=user_pass] {
 	position: absolute;
 	background-color: #509cfd;
 	border-radius: 50%;
-    bottom: -17px;
+    bottom: -4px;
 	-webkit-transition: all 2s ease;
 	-moz-transition: all 2s ease;
 	-o-transition: all 2s ease;
@@ -163,7 +160,7 @@ label[for=user_pass] input:focus + .bullet {
 }
 /* Bullet - STOP */
 /* Messages - START */
-.login #login_error, 
+.login #login_error,
 .login .message	{
 	color: #444;
 	margin-bottom: 10px;
@@ -183,14 +180,14 @@ label[for=user_pass] input:focus + .bullet {
 .login #nav {
 	margin-top: 10px;
 }
-.login form .forgetmenot label, 
+.login form .forgetmenot label,
 .login #nav a,
 .login #backtoblog a {
 	color: #343434;
 	font-size: 14px;
 }
-.login #backtoblog a:hover, 
-.login #nav a:hover, 
+.login #backtoblog a:hover,
+.login #nav a:hover,
 .login h1 a:hover {
 	color: #509cfd;
 }
